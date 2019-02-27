@@ -82,6 +82,41 @@
         margin-top: 400px;
         color: #fff;
     }
+    /* 第二页 */
+    .photoWall{
+        height: 100%;
+        width: 48%;
+        border-right: 4px double #ddd;
+        float: left;
+    }
+    .photoWall .self-introduction{
+        font-size: 40px;
+        padding: 40px;
+        font-family: "华文行楷";
+        color: #E61A0F;
+    }
+    .sayYourself-box{
+        height: 100%;
+        width: 48%;
+        float: left;
+        font-family: "华文行楷";
+        color: #E61A0F;
+        text-align: left;
+        font-size: 40px;
+    }
+    .sayYourself-box p{
+        margin: 0;
+        padding: 0;
+        padding: 160px 0 0 40px;
+        line-height: 50px;
+    }
+    .sayYourself-box .my-coni{
+        width: 100%;
+    }
+    .sayYourself-box .my-coni img{
+        height: 100%;
+        width: 100%;
+    }
     /*swiper 第3页 3D*/
     .swiper-container-img .swiper-slide{
         background-position: center;
