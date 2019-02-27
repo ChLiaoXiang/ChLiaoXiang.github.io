@@ -1,0 +1,75 @@
+    html, body {
+        position: relative;
+        height: 100%;
+    }
+    a{
+        text-decoration: none;
+        color: #151515;
+    }
+    body {
+        background: #eee;
+        font-size: 16px;
+        font-family: Source Sans Pro,Helvetica Neue,Arial,sans-serif;
+        color:#000;
+        margin: 0;
+        padding: 0;
+    }
+    .swiper-container {
+        width: 100%;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+    }
+    .github-corner {
+        border-bottom: 0;
+        position: fixed;
+        right: 0;
+        text-decoration: none;
+        top: 0;
+        z-index: 1;
+    }
+    /*github 猫咪logo*/
+    .github-corner svg {
+        color: #fff;
+        fill: var(--theme-color,#CC95C0);
+        height: 80px;
+        width: 80px;
+    }
+    .github-corner svg:hover{
+        transform:scale(1.2);
+    }
+    .app-nav {
+        margin: 25px 60px 0 0;
+        position: absolute;
+        right: 0;
+        text-align: right;
+        z-index: 2;
+    }
+    .app-nav li, .app-nav ul {
+        display: inline-block;
+        list-style: none;
+        font-size: 16px;
+        margin: 0;
+    }
+    .app-nav li {
+        margin: 0 30px;
+        padding: 5px 0;
+        position: relative;
+    }
+    #welcome{
+        position: relative;
+        height: 100%;width:100%;
+        background: #ddd;
+        overflow: hidden;
+        background: linear-gradient(#7AA1D2,#CC95C0, #DBD4B4);
+    }
+     #welcome .title{
+        text-align: center;
+        margin-top: 400px;
+        color: #fff;
+     }
