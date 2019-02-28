@@ -11,8 +11,10 @@ ul.thumb {
 ul.thumb {
 	position: relative;
 	list-style: none;
-	background-color: #DBD4B4;
 	box-shadow: 1px 3px 0px #eee;
+	background-image: url(../../img/zuozi.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 ul.thumb li {
 	position: absolute;

@@ -1,4 +1,14 @@
     
+    @font-face{
+        font-family: myFont;
+        src: url('../font/my-list1.ttf');
+    }
+    @font-face{
+        font-family: myFont2;
+        src: url('../font/my-list2.ttf');
+    }
+
+
     .goddess{
         position: absolute;
         right: 50px;
@@ -89,23 +99,29 @@
         float: left;
     }
     .photoWall .self-introduction{
+        font-family: 'myFont2';
         font-size: 40px;
-        padding: 40px;
-        color: #E61A0F;
+        margin: 0;
+        height: 200px;
+        line-height: 200px;
+        background: linear-gradient(#C8B3A8,#ffffff);
     }
     .sayYourself-box{
         height: 100%;
         width: 50%;
         float: left;
-        color: #E61A0F;
         text-align: left;
         font-size: 26px;
+        background-image: url(../../img/yangpizi.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
     }
     .sayYourself-box p{
         line-height: 50px;
         padding: 20px 40px;
         text-indent: 2em;
         text-align: justify;
+        font-family: 'myFont';
     }
     .sayYourself-box .my-coni{
         width: 100%;
