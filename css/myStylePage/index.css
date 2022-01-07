@@ -1,49 +1,56 @@
-    
-    @font-face{
+    @font-face {
         font-family: myFont;
         src: url('../font/my-list1.ttf');
     }
-    @font-face{
+
+    @font-face {
         font-family: myFont2;
         src: url('../font/my-list2.ttf');
     }
 
 
-    .goddess{
+    .goddess {
         position: absolute;
         right: 50px;
-        bottom: 10px;   
+        bottom: 10px;
         font-size: 14px;
         color: #7AA1D2;
         cursor: pointer;
     }
-    html, body {
+
+    html,
+    body {
         position: relative;
         height: 100%;
     }
-    a{
+
+    a {
         text-decoration: none;
         color: #151515;
     }
+
     body {
         background: #eee;
         font-size: 16px;
-        font-family: Source Sans Pro,Helvetica Neue,Arial,sans-serif;
-        color:#000;
+        font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif;
+        color: #000;
         margin: 0;
         padding: 0;
     }
+
     .swiper-container {
         width: 100%;
         height: 100%;
         margin-left: auto;
         margin-right: auto;
     }
+
     .swiper-slide {
         text-align: center;
         font-size: 18px;
         background: #fff;
     }
+
     .github-corner {
         border-bottom: 0;
         position: fixed;
@@ -52,16 +59,19 @@
         top: 0;
         z-index: 1;
     }
+
     /*github 猫咪logo*/
     .github-corner svg {
         color: #fff;
-        fill: var(--theme-color,#CC95C0);
+        fill: var(--theme-color, #CC95C0);
         height: 80px;
         width: 80px;
     }
-    .github-corner svg:hover{
-        transform:scale(1.2);
+
+    .github-corner svg:hover {
+        transform: scale(1.2);
     }
+
     .app-nav {
         margin: 25px 60px 0 0;
         position: absolute;
@@ -69,44 +79,53 @@
         text-align: right;
         z-index: 2;
     }
-    .app-nav li, .app-nav ul {
+
+    .app-nav li,
+    .app-nav ul {
         display: inline-block;
         list-style: none;
         font-size: 16px;
         margin: 0;
     }
+
     .app-nav li {
         margin: 0 30px;
         padding: 5px 0;
         position: relative;
     }
-    #welcome{
+
+    #welcome {
         position: relative;
-        height: 100%;width:100%;
+        height: 100%;
+        width: 100%;
         background: #ddd;
         overflow: hidden;
-        background: linear-gradient(#7AA1D2,#CC95C0, #DBD4B4);
+        background: linear-gradient(#7AA1D2, #CC95C0, #DBD4B4);
     }
-     #welcome .title{
+
+    #welcome .title {
         text-align: center;
-        margin-top: 400px;
+        margin-top: 350px;
         color: #fff;
     }
+
     /* 第二页 */
-    .photoWall{
+    .photoWall {
         height: 100%;
         width: 50%;
         float: left;
     }
-    .photoWall .self-introduction{
+
+    .photoWall .self-introduction {
         font-family: 'myFont2';
         font-size: 40px;
         margin: 0;
         height: 200px;
         line-height: 200px;
-        background: linear-gradient(#C8B3A8,#ffffff);
+        background: linear-gradient(#C8B3A8, #ffffff);
     }
-    .sayYourself-box{
+
+    .sayYourself-box {
         height: 100%;
         width: 50%;
         float: left;
@@ -116,24 +135,29 @@
         background-repeat: no-repeat;
         background-size: 100% 100%;
     }
-    .sayYourself-box p{
+
+    .sayYourself-box p {
         line-height: 50px;
         padding: 20px 40px;
         text-indent: 2em;
         text-align: justify;
         font-family: 'myFont';
     }
-    .sayYourself-box .my-coni{
+
+    .sayYourself-box .my-coni {
         width: 100%;
         height: 50%;
         box-shadow: 0px 0px 5px #E61A0F;
     }
-    .sayYourself-box .my-coni img{
+
+    .sayYourself-box .my-coni img {
         height: 100%;
         width: 100%;
+        object-fit: cover;
     }
+
     /*swiper 第3页 3D*/
-    .swiper-container-img .swiper-slide{
+    .swiper-container-img .swiper-slide {
         background-position: center;
         background-size: cover;
         width: 500px;
